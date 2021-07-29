@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "validacao-cep-raro.Api", "validacao-cep-raro\validacao-cep-raro.Api.csproj", "{D1FF1E85-E9E7-48E7-B7EE-952D208D17A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "validacao-cep-raro.Application", "validacao-cep-raro.Application\validacao-cep-raro.Application.csproj", "{2C51542B-5DDE-47BC-A17B-91AD65B50464}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "validacao-cep-raro.CrossCutting", "validacao-cep-raro.CrossCutting\validacao-cep-raro.CrossCutting.csproj", "{D1FF115B-ED97-4232-962E-05BC1F36B4B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "validacao-cep-raro.Domain", "validacao-cep-raro.Domain\validacao-cep-raro.Domain.csproj", "{726EA87D-CB9D-4CE4-B631-D8359B1B3B3D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "validacao-cep-raro.Test", "validacao-cep-raro.Test\validacao-cep-raro.Test.csproj", "{94814AB5-38C6-4E73-964C-6C2B54ED2747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "validacao-cep-raro.Infrastructure", "validacao-cep-raro.Infrastructure\validacao-cep-raro.Infrastructure.csproj", "{221A6A5F-B6D4-4726-A695-656A87F477AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1FF1E85-E9E7-48E7-B7EE-952D208D17A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1FF1E85-E9E7-48E7-B7EE-952D208D17A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1FF1E85-E9E7-48E7-B7EE-952D208D17A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1FF1E85-E9E7-48E7-B7EE-952D208D17A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C51542B-5DDE-47BC-A17B-91AD65B50464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C51542B-5DDE-47BC-A17B-91AD65B50464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C51542B-5DDE-47BC-A17B-91AD65B50464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C51542B-5DDE-47BC-A17B-91AD65B50464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1FF115B-ED97-4232-962E-05BC1F36B4B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1FF115B-ED97-4232-962E-05BC1F36B4B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1FF115B-ED97-4232-962E-05BC1F36B4B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1FF115B-ED97-4232-962E-05BC1F36B4B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{726EA87D-CB9D-4CE4-B631-D8359B1B3B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{726EA87D-CB9D-4CE4-B631-D8359B1B3B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{726EA87D-CB9D-4CE4-B631-D8359B1B3B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{726EA87D-CB9D-4CE4-B631-D8359B1B3B3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94814AB5-38C6-4E73-964C-6C2B54ED2747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94814AB5-38C6-4E73-964C-6C2B54ED2747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94814AB5-38C6-4E73-964C-6C2B54ED2747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94814AB5-38C6-4E73-964C-6C2B54ED2747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{221A6A5F-B6D4-4726-A695-656A87F477AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{221A6A5F-B6D4-4726-A695-656A87F477AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{221A6A5F-B6D4-4726-A695-656A87F477AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{221A6A5F-B6D4-4726-A695-656A87F477AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CE612DB-1CD6-4498-A14F-DA48D63FCE09}
+	EndGlobalSection
+EndGlobal
