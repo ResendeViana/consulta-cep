@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Web.Http;
 using validacao_cep_raro.Application.Interfaces;
 using validacao_cep_raro.Application.Results;
 using validacao_cep_raro.Domain.Entities;
@@ -20,15 +21,19 @@ namespace validacao_cep_raro.Application.Applications
 
         public Result<Endereco> Obter(string cepInput)
         {
-            var cep  = new Cep(cepInput);
+
+            var cep = new Cep(cepInput);
 
             if (cep.Valid)
             {
                 var endereco = _enderecoRepositorio.ObterPorCep(cep);
                 return Result<Endereco>.Ok(endereco);
             }
+            else
+            {
+                return Result<Endereco>.Error(cep.Notifications);
+            }
 
-            return Result<Endereco>.Error(cep.Notifications);
         }
     }
 }

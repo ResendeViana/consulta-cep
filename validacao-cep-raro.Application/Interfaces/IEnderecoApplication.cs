@@ -9,6 +9,6 @@ namespace validacao_cep_raro.Application.Interfaces
 {
     public interface IEnderecoApplication
     {
-        Result<Endereco> Obter(string cep);
+        Result<Endereco> Obter(string cepInput);
     }
 }

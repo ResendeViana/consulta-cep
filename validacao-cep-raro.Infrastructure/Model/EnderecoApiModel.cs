@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using validacao_cep_raro.Infrastructure.Model.Base;
 
 namespace validacao_cep_raro.Infrastructure.Model
 {
-    public class EnderecoApiModel
+    public class EnderecoApiModel : ApiResponse
     {
         public string Cep { get; set; }
         public string Logradouro { get; set; }
